@@ -1,7 +1,7 @@
 # SQLServer_CLI_Client
 Little CLI client in PowerShell to talk to SQL Server. Useful for internal pentesting or pivoting scenarios
 
-# Example Queries
+# Examples of Simple Queries
 
 "SELECT TABLE_SCHEMA FROM information_schema.tables group by tables.TABLE_SCHEMA" # List System Database </br>
 "SELECT name FROM master.dbo.sysdatabases" # List all Databases </br>
