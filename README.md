@@ -3,7 +3,7 @@ Little CLI client in PowerShell to talk to SQL Server. Useful for internal pente
 
 # Example Queries
 
-"SELECT TABLE_SCHEMA FROM information_schema.tables group by tables.TABLE_SCHEMA" # List System Database_
+"SELECT TABLE_SCHEMA FROM information_schema.tables group by tables.TABLE_SCHEMA" # List System Database__
 "SELECT name FROM master.dbo.sysdatabases" # List all Databases_
 "SELECT name FROM sys.databases WHERE state = 0" # List online Databases_
 "SELECT TABLE_NAME FROM <DATABASE>.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'" # List tables from Database_
